@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Grinched';
+    src: url('/GrinchedRegular.otf') format('truetype');
+    /* You can specify additional font properties here, such as font-weight and font-style */
+}
+
+body {
+    z-index: 2;
+    font-family: 'YourCustomFont', sans-serif;
+    background-color: #6ec0ff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 75%;
+    max-width: 600px;
+    position: relative;
+    z-index: 2; /* Ensure the container is above the snowflakes */
+}
+
+
+h1 {
+    font-family: 'Grinched', sans-serif;
+    color: #e44d26; /* Red */
+}
+
+label {
+    font-family: 'Arial', sans-serif;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    font-family: 'Arial', sans-serif;
+    padding: 8px;
+    margin: 5px 0;
+    width: calc(100% - 16px); /* Adjusted width to include equal margins */
+}
+
+button {
+    font-family: 'Grinched', sans-serif;
+    background-color: #28a745; /* Green */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+p#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #e44d26; /* Red */
+}
+
+
+.snowflake {
+    position: fixed; /* Use fixed positioning to cover the entire screen */
+    background: #ebebeb;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    animation: snowfall 2s linear infinite;
+    z-index: 1; /* Ensure the snowflakes are below the container */
+}
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(-100vh) translateX(-50%);
+    }
+    100% {
+        transform: translateY(100vh) translateX(-50%);
+    }
+}
+
+.bottom-right-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: url('/penguin.jpg') no-repeat; /* Replace with the path to your image */
+    background-size: contain;
+    width: 1000px; /* Adjust size as needed */
+    height: 1000px; /* Adjust size as needed */
+}
