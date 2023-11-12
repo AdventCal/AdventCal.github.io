@@ -5,92 +5,70 @@ function checkCode() {
     if (enteredCode.toLowerCase() === 'santa2023') {
         resultParagraph.textContent = 'You have discovered an Easter Egg! <- We know it is Christmas';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'snowflakes') {
+    } elseif (enteredCode.toLowerCase() === 'snowflakes') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'christmas tree') {
+    } elseif (enteredCode.toLowerCase() === 'christmas tree') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'ice skates') {
+    } elseif (enteredCode.toLowerCase() === 'ice skates') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'icicles') {
+    } elseif (enteredCode.toLowerCase() === 'icicles') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'snowman') {
+    } elseif (enteredCode.toLowerCase() === 'snowman') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'ice') {
+    } elseif (enteredCode.toLowerCase() === 'ice') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'christmas present') {
+    } elseif (enteredCode.toLowerCase() === 'christmas present') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'christmas ornaments') {
+    } elseif (enteredCode.toLowerCase() === 'christmas ornaments') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'wind') {
+    } elseif (enteredCode.toLowerCase() === 'wind') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'gingerbread cookie') {
+    } elseif (enteredCode.toLowerCase() === 'gingerbread cookie') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'december') {
+    } elseif (enteredCode.toLowerCase() === 'december') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'poinsettia') {
+    } elseif (enteredCode.toLowerCase() === 'poinsettia') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'ice rink') {
+    } elseif (enteredCode.toLowerCase() === 'ice rink') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'scarf') {
+    } elseif (enteredCode.toLowerCase() === 'scarf') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'christmas carol') {
+    } elseif (enteredCode.toLowerCase() === 'christmas carol') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'sledding') {
+    } elseif (enteredCode.toLowerCase() === 'sledding') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'ice castle') {
+    } elseif (enteredCode.toLowerCase() === 'ice castle') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'penguin') {
+    } elseif (enteredCode.toLowerCase() === 'penguin') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'northern lights') {
+    } elseif (enteredCode.toLowerCase() === 'northern lights') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'winter solstice') {
+    } elseif (enteredCode.toLowerCase() === 'winter solstice') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'orion') {
+    } elseif (enteredCode.toLowerCase() === 'orion') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
-    }
-    elseif (enteredCode.toLowerCase() === 'ice sculpting') {
+    } elseif (enteredCode.toLowerCase() === 'ice sculpting') {
         resultParagraph.textContent = 'The activity for today is: !';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else {
