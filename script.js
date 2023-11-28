@@ -3,8 +3,7 @@ function checkCode() {
     var resultParagraph = document.getElementById('result');
 
     if (enteredCode.toLowerCase() === 'santa2023') {
-        resultParagraph.textContent = 'You have discovered an Easter Egg! <- We know it is Christmas';
-        resultParagraph.style.color = '#218838'; // Darker Green
+        window.location.href = 'https://www.google.com'
     } else if (enteredCode.toLowerCase() === 'snowflakes') {
         resultParagraph.textContent = 'The activity for today is: A Christmas Movie!';
         resultParagraph.style.color = '#218838'; // Darker Green
