@@ -9,7 +9,7 @@ function checkCode() {
         resultParagraph.textContent = 'The activity for today is: A Christmas Movie!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'christmas tree') {
-        resultParagraph.textContent = 'The activity for today is: Christmas Baking!' <a href="google.com">link text</a>;
+        resultParagraph.textContent = 'The activity for today is: Christmas Baking! <a href="google.com">link text</a>';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'ice skates') {
         resultParagraph.textContent = 'The activity for today is: !';
