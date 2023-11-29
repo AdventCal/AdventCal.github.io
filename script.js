@@ -3,6 +3,10 @@ function checkCode() {
     var resultParagraph = document.getElementById('result');
 
     if (enteredCode.toLowerCase() === 'santa2023') {
+        alert(easter egg found!)
+        wait(3)
+        alert(redirecting...)
+        wait(2)
         window.location.href = 'https://www.google.com'
     } else if (enteredCode.toLowerCase() === 'snowflakes') {
         resultParagraph.textContent = 'The activity for today is: A Christmas Movie!';
