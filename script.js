@@ -11,7 +11,7 @@ function checkCode() {
         resultParagraph.textContent = 'The activity for today is: Christmas Baking!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'ice skates') {
-        resultParagraph.textContent = 'The activity for today is: !';
+        resultParagraph.textContent = 'The activity for today is: A Snowy Day Walk!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'icicles') {
         resultParagraph.textContent = 'The activity for today is: !';
