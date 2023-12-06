@@ -13,7 +13,7 @@ function checkCode() {
     } else if (enteredCode.toLowerCase() === 'ice skates') {
         resultParagraph.textContent = 'The activity for today is: A Snowy Day Walk!';
         resultParagraph.style.color = '#218838'; // Darker Green
-    } else if (enteredCode.toLowerCase() === 'icicles') {
+    } else if (enteredCode.toLowerCase() === 'icicle') {
         resultParagraph.textContent = 'The activity for today is: A Christmas Movie!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'snowman') {
