@@ -14,13 +14,13 @@ function checkCode() {
         resultParagraph.textContent = 'The activity for today is: A Snowy Day Walk!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'icicles') {
-        resultParagraph.textContent = 'The activity for today is: !';
+        resultParagraph.textContent = 'The activity for today is: A Christmas Movie!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'snowman') {
-        resultParagraph.textContent = 'The activity for today is: !';
+        resultParagraph.textContent = 'The activity for today is: A Christmas Craft!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'ice') {
-        resultParagraph.textContent = 'The activity for today is: !';
+        resultParagraph.textContent = 'The activity for today is: A Snowy Day Walk!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'christmas present') {
         resultParagraph.textContent = 'The activity for today is: !';
