@@ -19,10 +19,10 @@ function checkCode() {
     } else if (enteredCode.toLowerCase() === 'snowman') {
         resultParagraph.textContent = 'The activity for today is: A Christmas Craft!';
         resultParagraph.style.color = '#218838'; // Darker Green
-    } else if (enteredCode.toLowerCase() === 'ice') {
+    } else if (enteredCode.toLowerCase() === 'frost') {
         resultParagraph.textContent = 'The activity for today is: A Snowy Day Walk!';
         resultParagraph.style.color = '#218838'; // Darker Green
-    } else if (enteredCode.toLowerCase() === 'christmas present') {
+    } else if (enteredCode.toLowerCase() === 'North Star') {
         resultParagraph.textContent = 'The activity for today is: A Christmas Movie!';
         resultParagraph.style.color = '#218838'; // Darker Green
     } else if (enteredCode.toLowerCase() === 'christmas ornaments') {
